@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		Phonedir directory = new Phonedir();
+		Phonedir directory = new Phonedir(); //Testing directory
 		String prompts = "\n\na   Show all records"
 				+ "\nd   Delete the current record"
 				+ "\nf   Change the first name in the current record"
@@ -12,8 +12,8 @@ public class Main {
 				+ "\np   Change the phone number in the current record"
 				+ "\nq   Quit"
 				+ "\ns   Select a record from the record list to become the current record"
-				+ "\n\n\nEnter a command from the list above (q to quit): ";
-		boolean run_program = true;
+				+ "\n\n\nEnter a command from the list above (q to quit): "; //Prompts 
+		boolean run_program = true; //If true continue program, if false terminate.
 		Scanner k = new Scanner(System.in);
 		System.out.print("\nA program to keep a Phone Directory:" + prompts);
 		
